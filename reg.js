@@ -37,7 +37,7 @@ document
 
     try {
       // Send a POST request to the server using async/await
-      const response = await fetch("http://localhost:3000/submit-form", {
+      const response = await fetch("https://unicc-backend-sooty.vercel.app/submit-form", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
